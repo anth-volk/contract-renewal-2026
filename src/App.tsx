@@ -4,6 +4,8 @@ import {
   ContributionOverviewSlide,
   SpecificAchievementsSlide,
   GrowthTrajectorySlide,
+  ReflectionSlide,
+  FeedbackSlide,
   TheAskSlide,
   ThankYouSlide,
 } from "./components/Slides";
@@ -15,6 +17,8 @@ function App() {
       <ContributionOverviewSlide />
       <SpecificAchievementsSlide />
       <GrowthTrajectorySlide />
+      <ReflectionSlide />
+      <FeedbackSlide />
       <TheAskSlide />
       <ThankYouSlide />
     </Slideshow>

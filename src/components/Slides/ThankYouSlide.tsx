@@ -1,17 +1,11 @@
 import { motion } from "framer-motion";
 import { childVariants } from "../Slideshow/Slide";
-import { targetRate } from "../../data/salaryData";
-import { contributionSummary } from "../../data/contributionData";
 
 export function ThankYouSlide() {
   return (
     <div className="slide__content" style={{ textAlign: "center" }}>
-      <motion.p className="slide-eyebrow" variants={childVariants}>
-        Thank you
-      </motion.p>
-
       <motion.h1 className="slide-title" variants={childVariants}>
-        Let's discuss
+        Thank you for your time
       </motion.h1>
 
       <motion.p
@@ -22,34 +16,6 @@ export function ThankYouSlide() {
         I'm excited to continue growing with PolicyEngine and contributing to
         our mission of making policy analysis accessible to everyone.
       </motion.p>
-
-      <motion.div
-        variants={childVariants}
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "3rem",
-          flexWrap: "wrap",
-          marginBottom: "3rem",
-        }}
-      >
-        <div className="stat" style={{ alignItems: "center" }}>
-          <span className="stat__value">
-            {contributionSummary.totalPRsAllTime}
-          </span>
-          <span className="stat__label">Pull Requests</span>
-        </div>
-        <div className="stat" style={{ alignItems: "center" }}>
-          <span className="stat__value">17+</span>
-          <span className="stat__label">Repositories</span>
-        </div>
-        <div className="stat" style={{ alignItems: "center" }}>
-          <span className="stat__value stat__value--positive">
-            ${targetRate.annualMin / 1000}k–${targetRate.annualMax / 1000}k
-          </span>
-          <span className="stat__label">Target Range</span>
-        </div>
-      </motion.div>
 
       <motion.div
         variants={childVariants}
