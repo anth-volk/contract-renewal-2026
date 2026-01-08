@@ -132,7 +132,7 @@ export const keyAchievements = {
   appV2Leadership: {
     title: "Leading PolicyEngine App v2 development",
     description: "Primary developer driving the ground-up rebuild of PolicyEngine's core frontend application",
-    metrics: "98 PRs in 2025 alone",
+    metrics: "98 PRs in 2025",
     impact: "Building the next generation of PolicyEngine's user-facing product",
   },
   apiV2Migration: {
@@ -145,32 +145,29 @@ export const keyAchievements = {
     title: "API cost reduction via auto-untagging",
     description: "Implemented automatic untagging of deprecated API versions to reduce cloud costs",
     repo: "policyengine-api-v2",
-    impact: "Reduced infrastructure costs by removing unused resources",
+    impact: "Cuts simulation API bill by 87%",
+  },
+  techTeamManagement: {
+    title: "Improved tech team management",
+    description: "Drove adoption of structured development practices including sprint cycles, quarterly planning, and roadmapping",
+    metrics: "Ongoing process improvement",
+    impact: "More predictable delivery and clearer technical direction",
   },
 };
 
 // Growth intentions for future development
 export const growthIntentions = {
-  technicalGrowth: {
-    title: "Advanced technical concepts",
+  technicalLeadership: {
+    title: "Technical leadership",
     areas: [
-      "Parallelization and concurrent processing",
-      "Multithreading for compute-intensive simulations",
-      "Concurrency patterns for API scalability",
-    ],
-  },
-  strategicLeadership: {
-    title: "Strategic & architectural leadership",
-    areas: [
-      "System design and architecture decisions",
-      "Technical roadmap planning",
-      "Cross-team technical coordination",
+      "Technical roadmapping",
+      "System design decisions",
     ],
   },
   teamLeadership: {
     title: "Team leadership",
     areas: [
-      "Currently leading Sakshi's development work",
+      "Supervising Sakshi's development work",
       "Positioned to mentor additional junior developers",
       "Code review and knowledge transfer",
     ],

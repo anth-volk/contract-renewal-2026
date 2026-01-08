@@ -13,9 +13,9 @@ export function TitleSlide() {
         variants={childVariants}
         style={{ marginBottom: "0.5rem" }}
       >
-        Continued growth
+        Looking Back,
         <br />
-        <span className="slide-title--accent">& partnership</span>
+        <span className="slide-title--accent">Moving Forward</span>
       </motion.h1>
 
       <motion.p
@@ -23,8 +23,7 @@ export function TitleSlide() {
         variants={childVariants}
         style={{ margin: "1.5rem auto", maxWidth: "600px" }}
       >
-        Reflecting on contributions, growth trajectory, and alignment with
-        PolicyEngine's mission
+        A year in review and a proposal for what's next
       </motion.p>
 
       <motion.div

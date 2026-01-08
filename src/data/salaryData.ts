@@ -110,10 +110,10 @@ export const currentRate = {
 };
 
 export const targetRate = {
-  hourlyMin: 47.0,
-  hourlyMax: 52.0,
-  annualMin: 94000,
-  annualMax: 104000,
+  hourlyMin: 49.5,
+  hourlyMax: 53.5,
+  annualMin: 99000,
+  annualMax: 107000,
 };
 
 // Calculated comparisons

@@ -148,7 +148,7 @@ export function SpecificAchievementsSlide() {
           </div>
         </div>
 
-        {/* API Cost Reduction */}
+        {/* Tech Team Management */}
         <div className="slide-card">
           <div
             style={{
@@ -172,6 +172,67 @@ export function SpecificAchievementsSlide() {
               }}
             >
               3
+            </span>
+            <p
+              style={{
+                fontFamily: "var(--font-body)",
+                fontWeight: 600,
+                fontSize: "1rem",
+                color: "var(--pe-gray-800)",
+                margin: 0,
+              }}
+            >
+              {keyAchievements.techTeamManagement.title}
+            </p>
+          </div>
+          <p
+            style={{
+              fontFamily: "var(--font-body)",
+              fontSize: "0.9375rem",
+              color: "var(--pe-gray-600)",
+              margin: "0 0 0.75rem 0",
+              lineHeight: 1.6,
+            }}
+          >
+            {keyAchievements.techTeamManagement.description}
+          </p>
+          <p
+            style={{
+              fontFamily: "var(--font-body)",
+              fontSize: "0.8125rem",
+              color: "var(--pe-gray-500)",
+              margin: 0,
+              fontStyle: "italic",
+            }}
+          >
+            {keyAchievements.techTeamManagement.impact}
+          </p>
+        </div>
+
+        {/* API Cost Reduction */}
+        <div className="slide-card">
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0.75rem",
+              marginBottom: "1rem",
+            }}
+          >
+            <span
+              style={{
+                width: "40px",
+                height: "40px",
+                borderRadius: "10px",
+                background: "var(--pe-gray-100)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "1.25rem",
+                color: "var(--pe-gray-600)",
+              }}
+            >
+              4
             </span>
             <p
               style={{

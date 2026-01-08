@@ -1,49 +1,19 @@
 import { motion } from "framer-motion";
 import { childVariants } from "../Slideshow/Slide";
 
-export function FeedbackSlide() {
+export function LearningsSlide() {
   return (
     <div className="slide__content">
       <motion.p className="slide-eyebrow" variants={childVariants}>
-        Feedback
+        Reflection
       </motion.p>
 
       <motion.h1 className="slide-title" variants={childVariants}>
-        Being more <span className="slide-title--accent">effective</span>
+        <span className="slide-title--accent">Learnings</span>
       </motion.h1>
 
       <motion.div className="slide-grid" variants={childVariants}>
-        {/* What would help me */}
-        <div className="slide-card">
-          <p
-            style={{
-              fontFamily: "var(--font-body)",
-              fontWeight: 600,
-              fontSize: "0.75rem",
-              textTransform: "uppercase",
-              letterSpacing: "0.1em",
-              color: "var(--pe-gray-600)",
-              marginBottom: "1rem",
-            }}
-          >
-            What would help me
-          </p>
-          <p
-            style={{
-              fontFamily: "var(--font-body)",
-              fontSize: "1rem",
-              color: "var(--pe-gray-700)",
-              margin: 0,
-              lineHeight: 1.7,
-            }}
-          >
-            Clearer long-term deliverable prioritization and deadline setting
-            with a clearer connection to the grants/funding underpinning them
-            (where necessary).
-          </p>
-        </div>
-
-        {/* What would help PolicyEngine */}
+        {/* AI Technologies */}
         <div className="slide-card slide-card--accent">
           <p
             style={{
@@ -56,7 +26,7 @@ export function FeedbackSlide() {
               marginBottom: "1rem",
             }}
           >
-            What would help PolicyEngine
+            AI Technologies
           </p>
           <p
             style={{
@@ -67,7 +37,41 @@ export function FeedbackSlide() {
               lineHeight: 1.7,
             }}
           >
-            Clearer project and/or tech stack ownership.
+            I've grown considerably in my understanding and adoption of AI
+            technologies throughout the past year. These tools have become an
+            integral part of my development workflow, improving both speed and
+            quality of output.
+          </p>
+        </div>
+
+        {/* Platform-Agnostic Design */}
+        <div className="slide-card">
+          <p
+            style={{
+              fontFamily: "var(--font-body)",
+              fontWeight: 600,
+              fontSize: "0.75rem",
+              textTransform: "uppercase",
+              letterSpacing: "0.1em",
+              color: "var(--pe-gray-600)",
+              marginBottom: "1rem",
+            }}
+          >
+            Platform-Agnostic Architecture
+          </p>
+          <p
+            style={{
+              fontFamily: "var(--font-body)",
+              fontSize: "1rem",
+              color: "var(--pe-gray-700)",
+              margin: 0,
+              lineHeight: 1.7,
+            }}
+          >
+            I've developed a deeper understanding of how to build systems that
+            are technology- and infrastructure-agnostic—designing solutions that
+            aren't tightly coupled to specific vendors, frameworks, or
+            deployment environments.
           </p>
         </div>
       </motion.div>

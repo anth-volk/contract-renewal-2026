@@ -1,8 +1,10 @@
 export { TitleSlide } from "./TitleSlide";
+export { ReflectOn2025Slide } from "./ReflectOn2025Slide";
 export { ContributionOverviewSlide } from "./ContributionOverviewSlide";
 export { SpecificAchievementsSlide } from "./SpecificAchievementsSlide";
+export { LearningsSlide } from "./LearningsSlide";
+export { MovingTo2026Slide } from "./MovingTo2026Slide";
+export { OrgNeedsSlide } from "./OrgNeedsSlide";
 export { GrowthTrajectorySlide } from "./GrowthTrajectorySlide";
-export { ReflectionSlide } from "./ReflectionSlide";
-export { FeedbackSlide } from "./FeedbackSlide";
 export { TheAskSlide } from "./TheAskSlide";
 export { ThankYouSlide } from "./ThankYouSlide";

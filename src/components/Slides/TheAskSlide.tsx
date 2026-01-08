@@ -101,7 +101,7 @@ export function TheAskSlide() {
               textTransform: "uppercase",
               letterSpacing: "0.1em",
               color: "var(--pe-teal-700)",
-              marginBottom: "1rem",
+              marginBottom: "0.75rem",
             }}
           >
             Market reference
@@ -147,6 +147,21 @@ export function TheAskSlide() {
               </tr>
               <tr>
                 <td style={{ padding: "0.4rem 0", color: "var(--pe-gray-600)" }}>
+                  US National Median
+                </td>
+                <td
+                  style={{
+                    padding: "0.4rem 0",
+                    textAlign: "right",
+                    fontWeight: 500,
+                    color: "var(--pe-gray-700)",
+                  }}
+                >
+                  ${usNationalRange.median.toLocaleString()}
+                </td>
+              </tr>
+              <tr>
+                <td style={{ padding: "0.4rem 0", color: "var(--pe-gray-600)" }}>
                   DC 25th %ile
                 </td>
                 <td
@@ -177,6 +192,20 @@ export function TheAskSlide() {
               </tr>
             </tbody>
           </table>
+          <p
+            style={{
+              fontFamily: "var(--font-body)",
+              fontSize: "0.8125rem",
+              color: "var(--pe-gray-500)",
+              margin: "0.75rem 0 0 0",
+              fontStyle: "italic",
+              lineHeight: 1.5,
+            }}
+          >
+            Full Stack Developer salaries from ZipRecruiter and Glassdoor (2025
+            data, retrieved January 2026). Figures represent reported salary
+            distributions across job postings and self-reported compensation.
+          </p>
         </div>
       </motion.div>
 
